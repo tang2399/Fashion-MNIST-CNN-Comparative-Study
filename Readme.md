@@ -68,6 +68,8 @@ cd Fashion-MNIST-CNN-Comparative-Study pip install -r requirements.txt
 | GoogLeNet |            |                         |
 | ResNet18  |            |                         |
 
+<img src="https://raw.githubusercontent.com/tang2399/Fashion-MNIST-CNN-Comparative-Study/master/images/LossAndACC_LeNet.png"       alt="Loss and ACC"       style="float: left; margin-right: 20px;"       width="600"/>
+
 ## 🤝 贡献与许可
 
 - 欢迎提交Issue或PR！详细问题请联系 [2399340647@qq.com] 📧
