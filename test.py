@@ -89,7 +89,7 @@ if __name__ == "__main__":
         model = ResNet18()
 
     # 加载模型
-    model.load_state_dict(torch.load('./output_model/%s_best_model.pth' % model.model_name))
+    model.load_state_dict(torch.load('./output_models/%s_best_model.pth' % model.model_name))
     # 加载数据
     test_dataloader = test_data_process()
     # 输出标签

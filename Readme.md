@@ -6,6 +6,8 @@
 
 本项目使用 **5种经典CNN模型**（LeNet、AlexNet、VGGNet16、GoogLeNet、ResNet18）对Fashion-MNIST数据集进行图像分类，包含完整的训练、测试和可视化流程，可用于学习或基准测试。**让深度学习更生动！** 🚀
 
+<img src="https://raw.githubusercontent.com/tang2399/Fashion-MNIST-CNN-Comparative-Study/master/images/SampleGraph.png"       alt="Loss and ACC"       style="float: left; margin-right: 20px;"       width="800"/>
+
 ## 🚩 功能特性
 - **📦 多模型支持**：LeNet、AlexNet、VGGNet16、GoogLeNet、ResNet18
 - **⚡ 高效完整的训练流程**：支持模型选择、超参数配置、模型保存
@@ -57,16 +59,14 @@ cd Fashion-MNIST-CNN-Comparative-Study pip install -r requirements.txt
 
 ## 📊 实验结果
 
-不同模型在测试集上的准确率对比 📝（epochs=,lr=0.001）：  
-| 模型      | 测试准确率 | 训练时间（3060，6G） |
-| --------- | ---------- | -------------------- |
-| LeNet     |            | ⏳                    |
-| AlexNet   |            |                      |
-| VGGNet16  |            |                      |
-| GoogLeNet |            |                      |
-| ResNet18  |            |                      |
-
-
+不同模型在测试集上的准确率对比 📝（epochs=20, lr=0.001）：  
+| 模型      | 测试准确率 | 训练时间（RTX3060，6G） |
+| --------- | ---------- | ----------------------- |
+| LeNet     |            | ⏳                       |
+| AlexNet   |            |                         |
+| VGGNet16  |            |                         |
+| GoogLeNet |            |                         |
+| ResNet18  |            |                         |
 
 ## 🤝 贡献与许可
 

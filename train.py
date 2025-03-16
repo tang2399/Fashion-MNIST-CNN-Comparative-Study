@@ -144,7 +144,7 @@ def train_model_process(model, train_dataloader, val_dataloader, num_epochs, lr)
         print("Using time:{:.0f}m{:.0f}s".format(time_use // 60, time_use % 60))
 
     # 保存最优参数
-    torch.save(best_model_wts, './output_model/%s_best_model.pth' % model.model_name)
+    torch.save(best_model_wts, 'output_models/%s_best_model.pth' % model.model_name)
     train_process = pd.DataFrame(data={"epoch": range(num_epochs),
                                        "train_loss_all": train_loss_all,
                                        "val_loss_all": val_loss_all,
